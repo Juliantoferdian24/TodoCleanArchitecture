@@ -1,4 +1,4 @@
-package com.ferdian.todocleanarchitecture
+package com.ferdian.todocleanarchitecture.presentation.main
 
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar
@@ -9,6 +9,7 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
+import com.ferdian.todocleanarchitecture.R
 import com.ferdian.todocleanarchitecture.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
