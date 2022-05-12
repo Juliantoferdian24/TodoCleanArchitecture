@@ -6,7 +6,7 @@ import com.ferdian.todocleanarchitecture.data.login.remote.dto.LoginRequest
 import com.ferdian.todocleanarchitecture.data.login.remote.dto.LoginResponse
 import com.ferdian.todocleanarchitecture.domain.common.base.BaseResult
 import com.ferdian.todocleanarchitecture.domain.login.LoginRepository
-import com.ferdian.todocleanarchitecture.domain.login.entitiy.LoginEntity
+import com.ferdian.todocleanarchitecture.domain.login.entity.LoginEntity
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import kotlinx.coroutines.flow.Flow

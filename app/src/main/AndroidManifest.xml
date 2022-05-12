@@ -14,11 +14,11 @@
         android:theme="@style/Theme.TodoCleanArchitecture">
         <activity
             android:name=".presentation.register.RegisterActivity"
-            android:exported="false" />
+            android:theme="@style/Theme.TodoCleanArchitecture.NoActionBar" />
         <activity
             android:name=".presentation.login.LoginActivity"
-            android:exported="true"
-            android:theme="@style/Theme.TodoCleanArchitecture.NoActionBar">
+            android:theme="@style/Theme.TodoCleanArchitecture.NoActionBar"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,8 +28,7 @@
         <activity
             android:name=".presentation.main.MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.TodoCleanArchitecture.NoActionBar"></activity>
+            android:theme="@style/Theme.TodoCleanArchitecture.NoActionBar"/>
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-package com.ferdian.todocleanarchitecture.domain.login.entitiy
+package com.ferdian.todocleanarchitecture.domain.login.entity
 
 data class LoginEntity(
     var id : Int,

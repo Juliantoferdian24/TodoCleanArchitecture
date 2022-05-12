@@ -13,7 +13,7 @@ import com.ferdian.todocleanarchitecture.data.common.utils.WrappedResponse
 import com.ferdian.todocleanarchitecture.data.login.remote.dto.LoginRequest
 import com.ferdian.todocleanarchitecture.data.login.remote.dto.LoginResponse
 import com.ferdian.todocleanarchitecture.databinding.ActivityLoginBinding
-import com.ferdian.todocleanarchitecture.domain.login.entitiy.LoginEntity
+import com.ferdian.todocleanarchitecture.domain.login.entity.LoginEntity
 import com.ferdian.todocleanarchitecture.infra.utils.SharedPrefs
 import com.ferdian.todocleanarchitecture.presentation.extension.isEmail
 import com.ferdian.todocleanarchitecture.presentation.extension.showGenericAlertDialog
